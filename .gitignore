@@ -1,0 +1,42 @@
+# Visual Studio / .NET Core
+.vs/
+.vscode/
+bin/
+obj/
+Debug/
+Release/
+TestResults/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.nupkg
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Rider
+.idea/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# Database files
+*.mdf
+*.ldf
+
+# Build artifacts
+*.pdb
+*.ilk
+*.cache
+
+# JetBrains Rider
+*.sln.iml
+
+# Others
+*.vspscc
+*.vssscc
