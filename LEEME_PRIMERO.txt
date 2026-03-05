@@ -1,0 +1,77 @@
+╔═══════════════════════════════════════════════════╗
+║   🚀 INICIO RÁPIDO - Sistema de Ventas          ║
+╚═══════════════════════════════════════════════════╝
+
+📌 PASOS RÁPIDOS:
+
+1️⃣ Configurar Base de Datos:
+   • Haz clic derecho en: configurar_bd.ps1
+   • Selecciona: "Ejecutar con PowerShell"
+   • (O manualmente: ejecuta setup_database.sql en SSMS)
+
+2️⃣ Ejecutar la aplicación:
+   • bin\Debug\sistema de ventas.exe
+
+3️⃣ Iniciar sesión:
+   Usuario: admin
+   Contraseña: Admin2025!
+
+╔═══════════════════════════════════════════════════╗
+║   🔐 CREDENCIALES                                ║
+╚═══════════════════════════════════════════════════╝
+
+👤 ADMIN (Tu usuario)
+   Usuario: admin
+   Contraseña: Admin2025!
+   Correo: antony.mongelopez@ucr.ac.cr
+
+👤 VENDEDOR
+   Usuario: vendedor1
+   Contraseña: Vendedor123
+
+👤 USUARIO NORMAL
+   Usuario: usuario1
+   Contraseña: Usuario123
+
+╔═══════════════════════════════════════════════════╗
+║   📂 ARCHIVOS IMPORTANTES                        ║
+╚═══════════════════════════════════════════════════╝
+
+setup_database.sql    → Script SQL completo
+configurar_bd.ps1     → Configuración automática
+CREDENCIALES.txt      → Info detallada completa
+README_INICIO_RAPIDO.md → Guía paso a paso
+project.json          → Configuración de conexión
+
+╔═══════════════════════════════════════════════════╗
+║   ✨ DATOS DE PRUEBA INCLUIDOS                   ║
+╚═══════════════════════════════════════════════════╝
+
+✓ 7 Artículos con inventario
+✓ 5 Clientes
+✓ 3 Vendedores
+✓ 5 Marcas
+✓ 4 Proveedores
+
+╔═══════════════════════════════════════════════════╗
+║   🔧 PROBLEMAS COMUNES                           ║
+╚═══════════════════════════════════════════════════╝
+
+❌ "No se puede conectar"
+   → Verifica que SQL Server esté corriendo
+
+❌ "Usuario incorrecto"
+   → Las contraseñas distinguen mayúsculas/minúsculas
+   → Usa exactamente: Admin2025!
+
+❌ "Base de datos no existe"
+   → Ejecuta primero configurar_bd.ps1
+
+╔═══════════════════════════════════════════════════╗
+║   📞 CONTACTO                                    ║
+╚═══════════════════════════════════════════════════╝
+
+Email: antony.mongelopez@ucr.ac.cr
+Fecha: Mayo 2025
+
+¡TODO LISTO PARA PROBAR! 🎉

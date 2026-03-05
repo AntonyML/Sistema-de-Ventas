@@ -1,0 +1,5 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=DESKTOP-I9E14T9;Database=prestamos_db;Integrated Security=true;"
+  }
+}

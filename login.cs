@@ -1,4 +1,9 @@
-﻿namespace sistema_de_ventas
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace sistema_de_ventas
 {
     public partial class login : Form
     {
@@ -61,8 +66,9 @@
 
                 if (reader.HasRows)
                 {
-
                     Program.globalVariables.user = txtUsuario.Text;
+                    conex.cerrarConexion();
+                    GetRol();
 
                     menu menu = new menu();
                     this.Hide();
@@ -72,19 +78,21 @@
                 else
                 {
                     MessageBox.Show("Usuario o contraseña incorrecta");
+                    conex.cerrarConexion();
                 }
-                conex.cerrarConexion();
-                GetRol();
 
             }
-            catch (Exception ex) { MessageBox.Show("Error al conectarse a la base de datos"); }
+            catch (Exception ex) 
+            { 
+                MessageBox.Show("Error al conectarse a la base de datos: " + ex.Message); 
+            }
 
 
         }
 
         private void button2Salir_Click(object sender, EventArgs e)
         {
-            //this.Close();
+            Application.Exit();
         }
 
         private void txtUsuario_KeyDown(object sender, KeyEventArgs e)

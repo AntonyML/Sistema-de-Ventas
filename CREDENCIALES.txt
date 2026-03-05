@@ -1,0 +1,91 @@
+===============================================
+ CREDENCIALES PARA SISTEMA DE VENTAS
+===============================================
+
+📋 INFORMACIÓN DE LA BASE DE DATOS:
+  Servidor: . (o localhost o .\SQLEXPRESS)
+  Base de datos: prestamos_db
+  Autenticación: Windows (Integrated Security)
+
+===============================================
+👤 USUARIOS DEL SISTEMA
+===============================================
+
+🔐 ADMINISTRADOR (Acceso completo)
+  Usuario: admin
+  Contraseña: Admin2025!
+  Correo: antony.mongelopez@ucr.ac.cr
+  Rol: 1 (Administrador)
+
+🛒 VENDEDOR (Ventas y consultas)
+  Usuario: vendedor1
+  Contraseña: Vendedor123
+  Correo: maria.gonzalez@empresa.com
+  Rol: 2 (Vendedor)
+
+👥 USUARIO REGULAR
+  Usuario: usuario1
+  Contraseña: Usuario123
+  Correo: carlos.ramirez@empresa.com
+  Rol: 3 (Usuario)
+
+===============================================
+📦 DATOS DE PRUEBA INCLUIDOS
+===============================================
+
+✓ 3 Usuarios
+✓ 5 Marcas (Samsung, LG, Sony, HP, Dell)
+✓ 5 Líneas de productos
+✓ 5 Unidades de medida
+✓ 4 Proveedores
+✓ 7 Artículos con inventario
+✓ 5 Clientes
+✓ 3 Vendedores
+✓ 2 Facturadores
+
+===============================================
+🚀 PASOS PARA CONFIGURAR
+===============================================
+
+1. Abre SQL Server Management Studio (SSMS)
+2. Conecta a tu servidor local
+3. Abre el archivo: setup_database.sql
+4. Ejecuta el script (F5)
+5. Verifica el mensaje de éxito
+6. Ejecuta la aplicación "sistema de ventas.exe"
+7. Usa las credenciales de admin para iniciar sesión
+
+===============================================
+🔧 CONFIGURACIÓN ALTERNATIVA
+===============================================
+
+Si tu servidor SQL no es el predeterminado, 
+edita el archivo: project.json
+
+Cambia la cadena de conexión por:
+Server=TU_SERVIDOR;Database=prestamos_db;Integrated Security=true;
+
+Ejemplos de servidor:
+- Instancia por defecto: .
+- Instancia nombrada: .\SQLEXPRESS
+- Servidor remoto: 192.168.1.100
+- Servidor con puerto: localhost,1433
+
+===============================================
+📝 NOTAS IMPORTANTES
+===============================================
+
+⚠️ Las contraseñas son sensibles a mayúsculas/minúsculas
+⚠️ El script verifica si las tablas existen antes de crearlas
+⚠️ No se duplicarán los datos si ejecutas el script múltiples veces
+⚠️ Los roles son: 1=Admin, 2=Vendedor, 3=Usuario
+
+===============================================
+📞 SOPORTE
+===============================================
+
+Correo: antony.mongelopez@ucr.ac.cr
+Fecha de creación: 2025-05-03
+Versión del sistema: 1.0
+
+===============================================

@@ -1,5 +1,4 @@
-﻿using FontAwesome.Sharp;
-using sistema_de_ventas.database;
+﻿using sistema_de_ventas.database;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;

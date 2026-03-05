@@ -1,4 +1,9 @@
-﻿namespace sistema_de_ventas
+﻿using System;
+using System.Data;
+using System.Data.SqlClient;
+using System.Windows.Forms;
+
+namespace sistema_de_ventas
 {
     public partial class Unidad : Form
     {
